@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media ( max-width:1179px){
+.container							                          { padding:0 2%; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; width:96%;}
+.tab_inn ul.tabs li                                           { width: 22%; }
+.tab_inn .tab-content .tabcont_inn .tabblock_list .rghttab_sec  { width: 55%; } 
+.tab_inn .tab-content .tabcont_inn .tabblock_list .lfttab_sec   { margin-right: 20px;} 
+.tab_inn .tab-content .tabcont_inn .tabblock_list .lfttab_sec   { width: 40%;}   
+.tab_inn .tab-content .tabcont_inn .tabblock_list               { min-height: 400px; width: 46%;}
+.hdrtop_sec                                                     { padding: 0;}  
+.tab_inn .tab-content .tabcont_inn .tabblock_list .rghttab_sec  { width: 52%;}    
+                                           
+}
+
+@media ( max-width:1023px){ 
+.tab_inn .tab-content .tabcont_inn .tabblock_list .rghttab_sec  { width: 51%;} 
+.tab_inn .tab-content .tabcont_inn .tabblock_list               { width: 45%;} 
+.tab_inn .tab-content .tabcont_inn .tabblock_list .rghttab_sec h2   { font-size: 18px; line-height: 20px;}    
+.tab_inn .tab-content .tabcont_inn .tabblock_list .rghttab_sec p    { padding-bottom: 20px; font-size: 12px; line-height: 17px;}   
+.tab_inn .tab-content .tabcont_inn .tabblock_list .lfttab_sec p     { font-size: 12px;}
+.tab_inn .tab-content .tabcont_inn .tabblock_list                   { min-height: 430px;}    
+.banner_wrpr .bnr_cnt                                               { width: 700px;}    
+.banner_wrpr .bnr_cnt form input                                    { width: 66%;} 
+.lefthdr_sec .navigation > ul li                                    { margin-right: 30px;}  
+.tab_inn ul.tabs li                                                 { width: 21%;}   
+.lefthdr_sec .lfthdr_logo                                           { margin-right: 40px;}    
+}
+
+@media ( max-width:767px){ 
+.hdrtop_sec .rghthdr_sec .namemenu_sec                              { margin-left: 20px;}
+.lefthdr_sec .navigation > ul li                                    { margin-right: 15px;}  
+.banner_wrpr .bnr_cnt                                               { width: 100%;}   
+.tab_inn .tab-content .tabcont_inn                                  { margin: 0;}    
+.tab_inn .tab-content .tabcont_inn .tabblock_list                   { width: 100%; margin: 0 auto 60px; height: auto; min-height: auto;}    
+.tab_inn .tab-content .tabcont_inn .tabblock_list .rghttab_sec p    { min-height: auto;}    
+.banner_wrpr .bnr_cnt form .src_bttn                                { width: 150px;}    
+.tab_inn ul.tabs li img                                             { width: 70px;}  
+.tab_inn ul.tabs li                                                 { width: 20%;}  
+.banner_wrpr .bnr_cnt h1                                            { font-size: 34px; line-height: 41px;} 
+.banner_wrpr .bnr_cnt form input                                    { padding: 8px 20px; height: 45px; margin-bottom: 20px; width: 70%;}  
+.banner_wrpr .bnr_cnt form .src_bttn                                { height: 45px;}   
+.lefthdr_sec .lfthdr_logo                                           { margin-right: 20px;}   
+.lefthdr_sec .navigation                                            { margin: 3px 0 0;}    
+  
+}
+
+@media ( min-width:640px){
+.lefthdr_sec .navigation                                            { display: block !important;}    
+}
+
+@media ( max-width:640px){ 
+.toggle                                                             { display: block;  position: absolute; left: 120px; top: 5px; z-index: 2;}
+.hdrtop_sec                                                         { position: relative;}
+.lefthdr_sec .navigation                                            { display: none; position: absolute; left: 0; top: 100%; z-index: 999; width: 100%; background-color: #8b86f4; } 
+.lefthdr_sec .navigation ul                                         { margin: 0; padding: 15px 0 5px 0;} 
+.lefthdr_sec .navigation ul li                                      { float: none; display: block; padding:0 0 10px 0; margin:0 0 10px 0;}
+.lefthdr_sec .navigation ul li a                                    { text-align: center;}
+.banner_wrpr .bnr_cnt h1                                            { font-size: 30px; line-height: 35px;}  
+.lefthdr_sec .navigation > ul li a:hover:after                      { display: none;}
+.banner_wrpr .bnr_cnt form .src_bttn                                { width: 110px;}   
+.tab_inn ul.tabs li                                                 { width: 18%;}  
+.tab_inn ul.tabs li img                                             { width: 60px;} 
+.tab_inn                                                            { margin-bottom: 50px;} 
+.banner_wrpr .bnr_cnt                                               { padding: 100px 0;}    
+}
+
+@media ( max-width:479px){
+.banner_wrpr .bnr_cnt form input                                    { width: 100%; float: none; display: block;}  
+.tab_inn ul.tabs li img                                             { width: 40px;}   
+.tab_inn ul.tabs li                                                 { padding: 20px 15px; height: 75px; width: 15%; }
+.tab_inn ul.tabs li.current                                         { padding: 30px 10px;}    
+.tab_inn ul.tabs li span                                            { font-size: 14px;}  
+.hdrtop_sec .lefthdr_sec                                            { float: none; display: block; width: 100%; margin: 0 auto 20px;}
+.hdrtop_sec .rghthdr_sec                                            { float: right; display: block; margin: 0 auto 20px;}  
+.lefthdr_sec .lfthdr_logo                                           { float: none; display: block; width: 100%; margin: 0 auto 0;}  
+.banner_wrpr .bnr_cnt                                               { padding: 135px 0 50px;}    
+.hdrtop_sec .rghthdr_sec .msg_sec                                   { float: none; margin: 0; padding: 0; display: inline-block; vertical-align: middle;}  
+.hdrtop_sec .rghthdr_sec .namemenu_sec                              { float: none; display: inline-block; vertical-align: middle;}   
+.toggle                                                             { right: 0; left: inherit;}
+.lefthdr_sec .navigation                                            { top: 35px;} 
+.banner_wrpr .bnr_cnt h1                                            { font-size: 23px; line-height: 25px; padding-bottom: 20px;} 
+.banner_wrpr .bnr_cnt form input                                    { height: 35px; padding: 5px 15px; font-size: 13px;}  
+.banner_wrpr .bnr_cnt form .src_bttn                                { height: 30px;}
+.banner_wrpr                                                        { min-height: 410px; height: 410px;}
+.tab_inn .tab-content .tabcont_inn .tabblock_list .lfttab_sec       { float: none; display: block; width: 100%;} 
+.tab_inn .tab-content .tabcont_inn .tabblock_list .rghttab_sec      { float: none; display: block; width: 100%;}   
+.tab_inn .tab-content .tabcont_inn .tabblock_list .rghttab_sec a    { width: 140px; font-size: 13px; }    
+    
+            
+}
+
+
+
